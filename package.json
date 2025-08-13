@@ -1,6 +1,6 @@
 {
   "name": "gtf-eslint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,10 +19,10 @@
   "license": "ISC",
   "packageManager": "pnpm@10.12.1",
   "dependencies": {
-    "@eslint/js": "^9.30.0",
-    "eslint-config-prettier": "^10.1.5",
-    "eslint-plugin-prettier": "^5.5.1",
+    "@eslint/js": "^9.33.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
     "prettier": "^3.6.2",
-    "typescript-eslint": "^8.35.1"
+    "typescript-eslint": "^8.39.1"
   }
 }

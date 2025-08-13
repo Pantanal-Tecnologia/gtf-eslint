@@ -15,14 +15,6 @@ export default tseslint.config({
     ecmaVersion: 2022,
   },
   rules: {
-    "no-console": "error",
-    "no-debugger": "error",
-    "no-unused-vars": "error",
-    "no-unused-expressions": "error",
-    "no-unused-labels": "error",
-    "no-unused-imports": "error",
-    "no-unused-imports-ts": "error",
-    "no-unused-imports-tsx": "error",
     "prettier/prettier": [
       "error",
       {

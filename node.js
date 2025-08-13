@@ -7,8 +7,9 @@ export default tseslint.config({
   extends: [
     eslintPluginPrettierRecommended,
     js.configs.recommended,
-    ...tseslint.configs.recommendedTypeChecked,
-    ...tseslint.configs.strictTypeChecked,
+    tseslint.configs.strictTypeChecked,
+    tseslint.configs.stylisticTypeChecked,
+    tseslint.configs.stylistic,
   ],
   files: ["**/*.{ts,tsx,js}"],
   languageOptions: {
